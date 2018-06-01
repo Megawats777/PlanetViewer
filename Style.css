@@ -1,0 +1,41 @@
+/*--The style file for the site--*/
+
+.SectionTitleUnderline
+{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.PlanetSelection
+{
+    height: 350px;
+    border-right: 1px solid black;
+}
+
+.Section
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.DsPlanetContent
+{
+    margin-left: 10px;
+}
+
+.PlanetSelection button
+{
+    display: block;
+    width: 30%;
+}
+
+.DsPlanetContent p
+{
+    width: 500px;
+}
+
+.DsPlanetContent img
+{
+    height: 250px;
+    width: 250px;
+}
