@@ -58,33 +58,27 @@ function displayPlanet(index)
     planetDisplaySpawnPoint.innerHTML = " ";
 
     // The planet name title
-    var planetNameTitle = document.createElement("h3");
-    planetNameTitle.appendChild(document.createTextNode(PlanetList[index].Name_Offical));
-
-    // The nick name title
-    var nickNameTitle = document.createElement("h4");
-    nickNameTitle.appendChild(document.createTextNode("Nickname: " + PlanetList[index].NickName));
+    var planetNameTitle = document.createElement("h4");
+    planetNameTitle.appendChild(document.createTextNode(PlanetList[index].Name_Offical + " (" + PlanetList[index].NickName + ")"));
+    planetDisplaySpawnPoint.appendChild(planetNameTitle);
 
     // The age of the planet text
-    var ageText = document.createElement("h4");
+    var ageText = document.createElement("p");
     ageText.appendChild(document.createTextNode("Age: " + PlanetList[index].Age));
+    planetDisplaySpawnPoint.appendChild(ageText);
 
     // Create the image elements
     var planetImage = document.createElement("img");
     planetImage.setAttribute("src", PlanetList[index].Image);
+    planetDisplaySpawnPoint.appendChild(planetImage);
 
     // Create the description elements
     var descriptionTitle = document.createElement("h4");
     descriptionTitle.appendChild(document.createTextNode("Details"))
+    planetDisplaySpawnPoint.appendChild(descriptionTitle);
 
     var description = document.createElement("p");
     description.appendChild(document.createTextNode(PlanetList[index].Description));
-
-    // Add the new elements to the designated spawnpoint
-    planetDisplaySpawnPoint.appendChild(planetNameTitle);
-    planetDisplaySpawnPoint.appendChild(nickNameTitle);
-    planetDisplaySpawnPoint.appendChild(ageText);
-    planetDisplaySpawnPoint.appendChild(planetImage);
-    planetDisplaySpawnPoint.appendChild(descriptionTitle);
     planetDisplaySpawnPoint.appendChild(description);
+    
 }
