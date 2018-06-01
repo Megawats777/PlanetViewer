@@ -86,17 +86,21 @@ function displayPlanet(index)
     
     // Depending of the content of the second carbon danger level text element
     // Set the colour accordingly
+    // Set the tooltip accordingly
     if (carbonDangerLevelText_02.innerHTML == "Ludicrous")
     {
         carbonDangerLevelText_02.style.color = "red";
+        carbonDangerLevelText_02.setAttribute("title", "This is really bad!");
     }
     else if (carbonDangerLevelText_02.innerHTML == "Moderate")
     {
         carbonDangerLevelText_02.style.color = "#EF6C00";
+        carbonDangerLevelText_02.setAttribute("title", "We should probably pay attention to this.");
     }
     else
     {
         carbonDangerLevelText_02.style.color = "green";
+        carbonDangerLevelText_02.setAttribute("title", "Everything is alright.");
     }
 
 
@@ -106,6 +110,7 @@ function displayPlanet(index)
     // Create the image elements
     var planetImage = document.createElement("img");
     planetImage.setAttribute("src", PlanetList[index].Image);
+    planetImage.setAttribute("alt", "This is a picture of the planet: " + PlanetList[index].Name_Offical);
     planetDisplaySpawnPoint.appendChild(planetImage);
 
     // Create the description elements
