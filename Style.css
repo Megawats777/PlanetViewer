@@ -1,5 +1,11 @@
 /*--The style file for the site--*/
 
+body
+{
+    font-family: 'Oxygen', sans-serif;
+}
+
+
 
 .MainContent
 {
@@ -31,6 +37,8 @@
 
 .PlanetSelection button
 {
+    font-size: 15px;
+
     display: block;
     width: 30%;
 }
@@ -40,8 +48,15 @@
     margin-left: 18px;
 }
 
+.DsPlanetContent h4
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .DsPlanetContent p
 {
+    font-size: 15px;
     width: 500px;
 }
 
