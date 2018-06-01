@@ -6,14 +6,18 @@ var PlanetList = [
         Name_Offical: "Earth", 
         NickName: "A big spinning marble", 
         Age: 50000, 
+        Population: "400 Billion",
+        CarbonDangerLevel: "Ludicrous",
         Image: "Images/IMG_Earth.jpg",
         Description: "The place where all humans live. It has been around for billions of years even more." + 
-                     "So please take of it...pretty please."
+                     " So please take of it...pretty please."
     },
     {
         Name_Offical: "Venus", 
         NickName: "One of the first planets in warframe", 
         Age: 8000, 
+        Population: "200 Million",
+        CarbonDangerLevel: "Light",
         Image: "Images/IMG_Venus.jpg",
         Description: "Aside from being one of the first planets in Warframe it is also...actually I don't know."
     }
@@ -66,6 +70,16 @@ function displayPlanet(index)
     var ageText = document.createElement("p");
     ageText.appendChild(document.createTextNode("Age: " + PlanetList[index].Age));
     planetDisplaySpawnPoint.appendChild(ageText);
+
+    // The population text
+    var populationText = document.createElement("p");
+    populationText.appendChild(document.createTextNode("Population: " + PlanetList[index].Population));
+    planetDisplaySpawnPoint.appendChild(populationText);
+
+    // Carbon danger level text
+    var carbonDangerLevelText = document.createElement("p");
+    carbonDangerLevelText.appendChild(document.createTextNode("CO Danger Level: " + PlanetList[index].CarbonDangerLevel));
+    planetDisplaySpawnPoint.appendChild(carbonDangerLevelText);
 
     // Create the image elements
     var planetImage = document.createElement("img");
