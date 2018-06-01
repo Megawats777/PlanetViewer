@@ -32,7 +32,7 @@ var planetDisplaySpawnPoint;
 window.onload = function()
 {
     buttonSpawnPoint = document.querySelector("#PlanetSelectionSpawnPoint");
-    planetDisplaySpawnPoint = document.querySelector(".PlanetInfoSpawnPoint");
+    planetDisplaySpawnPoint = document.querySelector("#PlanetInfoSpawnPoint");
 
     // Create planet selection buttons
     createPlanetSelectionButtons();
