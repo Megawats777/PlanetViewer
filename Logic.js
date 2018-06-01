@@ -77,9 +77,31 @@ function displayPlanet(index)
     planetDisplaySpawnPoint.appendChild(populationText);
 
     // Carbon danger level text
-    var carbonDangerLevelText = document.createElement("p");
-    carbonDangerLevelText.appendChild(document.createTextNode("CO Danger Level: " + PlanetList[index].CarbonDangerLevel));
-    planetDisplaySpawnPoint.appendChild(carbonDangerLevelText);
+    var carbonDangerLevelText_01 = document.createElement("p");
+    carbonDangerLevelText_01.appendChild(document.createTextNode("CO Danger Level: "));
+
+    var carbonDangerLevelText_02 = document.createElement("p");
+    carbonDangerLevelText_02.appendChild(document.createTextNode(PlanetList[index].CarbonDangerLevel));
+    carbonDangerLevelText_02.style.display = "inline";
+    
+    // Depending of the content of the second carbon danger level text element
+    // Set the colour accordingly
+    if (carbonDangerLevelText_02.innerHTML == "Ludicrous")
+    {
+        carbonDangerLevelText_02.style.color = "red";
+    }
+    else if (carbonDangerLevelText_02.innerHTML == "Moderate")
+    {
+        carbonDangerLevelText_02.style.color = "#EF6C00";
+    }
+    else
+    {
+        carbonDangerLevelText_02.style.color = "green";
+    }
+
+
+    carbonDangerLevelText_01.appendChild(carbonDangerLevelText_02);
+    planetDisplaySpawnPoint.appendChild(carbonDangerLevelText_01);
 
     // Create the image elements
     var planetImage = document.createElement("img");
