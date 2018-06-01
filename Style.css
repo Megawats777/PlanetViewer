@@ -1,5 +1,11 @@
 /*--The style file for the site--*/
 
+
+.MainContent
+{
+    margin-top: 20px;
+}
+
 .SectionTitleUnderline
 {
     border-bottom: 1px solid black;
@@ -8,7 +14,7 @@
 
 .PlanetSelection
 {
-    height: 350px;
+    height: 500px;
     border-right: 1px solid black;
 }
 
@@ -29,6 +35,11 @@
     width: 30%;
 }
 
+.DsPlanetContent
+{
+    margin-left: 18px;
+}
+
 .DsPlanetContent p
 {
     width: 500px;
@@ -36,6 +47,9 @@
 
 .DsPlanetContent img
 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
     height: 250px;
     width: 250px;
 }
