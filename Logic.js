@@ -41,7 +41,7 @@ var planetDisplaySpawnPoint;
 var alternateDimensionToggle;
 
 var isInAlternateDimension = false;
-
+var currentPlanetIndex = -1;
 
 /*--Variables End--*/
 
@@ -85,6 +85,8 @@ function createPlanetSelectionButtons()
 // Display planet
 function displayPlanet(index)
 {
+    currentPlanetIndex = index;
+
     planetDisplaySpawnPoint.innerHTML = " ";
 
     // The planet name title
@@ -209,5 +211,17 @@ function toggleAlternateDimension(status)
         displayedPlanetTitle.innerHTML = "Selected Planet";
     }
 
-    planetDisplaySpawnPoint.innerHTML = "<p>No planet selected.</p>";
+    // If no planet has been selected
+    if (currentPlanetIndex == -1)
+    {
+        planetDisplaySpawnPoint.innerHTML = "<p>No planet selected.</p>";
+    }
+    // Otherwise
+    // Rebuild the planet display section
+    else
+    {
+        planetDisplaySpawnPoint.innerHTML = " ";
+        displayPlanet(currentPlanetIndex);
+    }
+
 }
