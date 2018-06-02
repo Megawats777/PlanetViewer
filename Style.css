@@ -5,7 +5,10 @@ body
     font-family: 'Oxygen', sans-serif;
 }
 
-
+.AltDimensionSection
+{
+    margin-top: 20px;
+}
 
 .MainContent
 {
