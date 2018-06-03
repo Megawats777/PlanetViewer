@@ -4,6 +4,18 @@
 body
 {
     font-family: 'Oxygen', sans-serif;
-    background-color: grey;
-    color: lightblue;
+    background-color: rgba(40, 40, 40);
+    color: #0288D1;
+}
+
+/*--Adjust the borders of all section elements--*/
+
+.SectionTitleUnderline
+{
+    border-bottom: 1px solid #0288D1;
+}
+
+.PlanetSelection
+{
+    border-right: 1px solid #0288D1;
 }

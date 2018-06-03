@@ -63,6 +63,8 @@ window.onload = function()
         toggleAlternateDimension(alternateDimensionToggle.checked);
     }
 
+    // TODO: Remove this code after alternate dimension styling is finished
+    toggleAlternateDimension(true);
 
     // Create planet selection buttons
     createPlanetSelectionButtons();

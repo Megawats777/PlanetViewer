@@ -5,3 +5,13 @@ body
     font-family: 'Oxygen', sans-serif;
 }
 
+.SectionTitleUnderline
+{
+    border-bottom: 1px solid black;
+}
+
+.PlanetSelection
+{
+    border-right: 1px solid black;
+}
+

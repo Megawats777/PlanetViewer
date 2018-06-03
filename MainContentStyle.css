@@ -1,5 +1,5 @@
 /*--The styling for the main content of the site--*/
-/*--DO NOT ADJUST COLOURS IN THIS PAGE--*/
+/*--DO NOT ADJUST COLOURS AND BORDERS IN THIS File--*/
 /*--Colours are handled in the files Style.css and AltDimensionStyles.css--*/
 
 .AltDimensionSection
@@ -14,14 +14,12 @@
 
 .SectionTitleUnderline
 {
-    border-bottom: 1px solid black;
     margin-bottom: 20px;
 }
 
 .PlanetSelection
 {
     height: 500px;
-    border-right: 1px solid black;
 }
 
 .Section
