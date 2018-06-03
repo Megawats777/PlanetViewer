@@ -1,73 +1,7 @@
-/*--The style file for the site--*/
+/*--The style file for the regular dimension of the site--*/
 
 body
 {
     font-family: 'Oxygen', sans-serif;
 }
 
-.AltDimensionSection
-{
-    margin-top: 20px;
-}
-
-.MainContent
-{
-    margin-top: 20px;
-}
-
-.SectionTitleUnderline
-{
-    border-bottom: 1px solid black;
-    margin-bottom: 20px;
-}
-
-.PlanetSelection
-{
-    height: 500px;
-    border-right: 1px solid black;
-}
-
-.Section
-{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.DsPlanetContent
-{
-    margin-left: 10px;
-}
-
-.PlanetSelection button
-{
-    font-size: 15px;
-
-    display: block;
-    width: 30%;
-}
-
-.DsPlanetContent
-{
-    margin-left: 18px;
-}
-
-.DsPlanetContent h4
-{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.DsPlanetContent p
-{
-    font-size: 15px;
-    width: 500px;
-}
-
-.DsPlanetContent img
-{
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-    height: 250px;
-    width: 250px;
-}

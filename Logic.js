@@ -39,6 +39,7 @@ var PlanetList = [
 var buttonSpawnPoint;
 var planetDisplaySpawnPoint;
 var alternateDimensionToggle;
+var stylesheetElement;
 
 var isInAlternateDimension = false;
 var currentPlanetIndex = -1;
@@ -52,6 +53,9 @@ window.onload = function()
     buttonSpawnPoint = document.querySelector("#PlanetSelectionSpawnPoint");
     planetDisplaySpawnPoint = document.querySelector("#PlanetInfoSpawnPoint");
     alternateDimensionToggle = document.querySelector("#AltDimensionToggle");
+    stylesheetElement = document.querySelector("#PageStyle");
+
+    stylesheetElement.setAttribute("href", "Style.css");
 
     alternateDimensionToggle.onchange = function()
     {
@@ -204,11 +208,13 @@ function toggleAlternateDimension(status)
     if (status === true)
     {
         displayedPlanetTitle.innerHTML = "Selected Planet (Alternate Dimension)";
+        stylesheetElement.setAttribute("href", "AltDimensionStyles.css");
     }
 
     else
     {
         displayedPlanetTitle.innerHTML = "Selected Planet";
+        stylesheetElement.setAttribute("href", "Style.css");
     }
 
     // If no planet has been selected
