@@ -5,6 +5,17 @@ body
     font-family: 'Oxygen', sans-serif;
 }
 
+.AltDimensionSection button
+{
+    border-color: black;
+}
+
+.AltDimensionSection button:hover
+{
+    border-color: black;
+    color: black;
+}
+
 .SectionTitleUnderline
 {
     border-bottom: 1px solid black;

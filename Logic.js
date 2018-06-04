@@ -52,15 +52,15 @@ window.onload = function()
 {
     buttonSpawnPoint = document.querySelector("#PlanetSelectionSpawnPoint");
     planetDisplaySpawnPoint = document.querySelector("#PlanetInfoSpawnPoint");
-    alternateDimensionToggle = document.querySelector("#AltDimensionToggle");
+    alternateDimensionToggle = document.querySelector("#SwitchDimensionToggle");
     stylesheetElement = document.querySelector("#PageStyle");
 
     stylesheetElement.setAttribute("href", "Style.css");
 
-    alternateDimensionToggle.onchange = function()
+    alternateDimensionToggle.onclick = function()
     {
-        isInAlternateDimension = alternateDimensionToggle.checked;
-        toggleAlternateDimension(alternateDimensionToggle.checked);
+        isInAlternateDimension = !isInAlternateDimension;
+        toggleAlternateDimension(isInAlternateDimension);
     }
 
     // Create planet selection buttons

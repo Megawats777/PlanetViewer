@@ -8,6 +8,19 @@ body
     color: #0288D1;
 }
 
+.AltDimensionSection button
+{
+    background-color: rgba(40, 40, 40);
+    border-color: #0288D1;
+    color: #0288D1;
+}
+
+.AltDimensionSection button:hover
+{
+    border-color: #0288D1;
+    color: #0288D1;
+}
+
 /*--Adjust the borders of all section elements--*/
 
 .SectionTitleUnderline

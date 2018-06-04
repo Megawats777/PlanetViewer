@@ -7,6 +7,17 @@
     margin-top: 20px;
 }
 
+.AltDimensionSection button
+{
+    padding: 10px;
+    border-radius: 0px;
+
+    display: block;
+
+    transition: all cubic-bezier(0,1.18,.89,.97) 0.15s;
+    -webkit-transition: all cubic-bezier(0,1.18,.89,.97) 0.15s;
+}
+
 .MainContent
 {
     margin-top: 20px;
