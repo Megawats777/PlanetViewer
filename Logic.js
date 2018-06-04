@@ -63,9 +63,6 @@ window.onload = function()
         toggleAlternateDimension(alternateDimensionToggle.checked);
     }
 
-    // TODO: Remove this code after alternate dimension styling is finished
-    toggleAlternateDimension(true);
-
     // Create planet selection buttons
     createPlanetSelectionButtons();
 };
@@ -177,7 +174,17 @@ function displayPlanet(index)
     }
     else
     {
-        carbonDangerLevelText_02.style.color = "green";
+        // If is in alternate dimension
+        if (isInAlternateDimension)
+        {
+            // carbonDangerLevelText_02.style.color = "green";
+            carbonDangerLevelText_02.style.color = "#00BFA5";
+        }
+        else
+        {
+            carbonDangerLevelText_02.style.color = "green";
+        }
+
         carbonDangerLevelText_02.setAttribute("title", "Everything is alright.");
     }
 
@@ -206,6 +213,7 @@ function displayPlanet(index)
 function toggleAlternateDimension(status)
 {
     var displayedPlanetTitle = document.querySelector("#DisplayedPlanetTitle");
+    isInAlternateDimension = status;
 
     if (status === true)
     {
