@@ -27,3 +27,9 @@ body
     background-color: rgba(40, 40, 40);
     color: #0288D1;
 }
+
+.PlanetSelection button:hover
+{
+    border-color: #0288D1;
+    color: #0288D1;
+}
