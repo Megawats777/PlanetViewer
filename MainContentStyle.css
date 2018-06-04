@@ -36,9 +36,14 @@
 .PlanetSelection button
 {
     font-size: 15px;
+    border-radius: 0px;
+    text-align: left;
 
     display: block;
-    width: 30%;
+    width: 50%;
+    height: 50px;
+
+    padding-left: 20px;
 }
 
 .DsPlanetContent

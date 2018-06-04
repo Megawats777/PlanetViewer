@@ -15,3 +15,8 @@ body
     border-right: 1px solid black;
 }
 
+.PlanetSelection button
+{
+    border-color: black;
+}
+

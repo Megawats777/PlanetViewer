@@ -19,3 +19,11 @@ body
 {
     border-right: 1px solid #0288D1;
 }
+
+.PlanetSelection button
+{
+    border-color: #0288D1;
+
+    background-color: rgba(40, 40, 40);
+    color: #0288D1;
+}

@@ -81,6 +81,13 @@ function createPlanetSelectionButtons()
         newButton.setAttribute("class", "btn btn-default");
         newButton.setAttribute("onclick", "displayPlanet(" + i + ")");
 
+        // If the current index is not the last part of the array
+        // Remove the bottom border
+        if (i != (PlanetList.length - 1))
+        {
+            newButton.style.borderBottom = "0px";
+        }
+
         buttonSpawnPoint.appendChild(newButton);
     }
 }
