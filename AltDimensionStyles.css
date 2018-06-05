@@ -21,6 +21,7 @@ body
     color: #0288D1;
 }
 
+
 /*--Adjust the borders of all section elements--*/
 
 .SectionTitleUnderline
@@ -44,5 +45,10 @@ body
 .PlanetSelection button:hover
 {
     border-color: #0288D1;
+    color: #0288D1;
+}
+
+.PlanetSelection button:focus
+{
     color: #0288D1;
 }

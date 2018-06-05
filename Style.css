@@ -29,11 +29,17 @@ body
 .PlanetSelection button
 {
     border-color: black;
+    color: black;
 }
 
 .PlanetSelection button:hover
 {
     border-color: black;
+    color: black;
+}
+
+.PlanetSelection button:focus
+{
     color: black;
 }
 
