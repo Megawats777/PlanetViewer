@@ -34,12 +34,25 @@ var PlanetList = [
     }
 ];
 
+// A list of years
+var YearList = [
+    {
+        Year: 3094,
+        Period: "A.B"
+    },
+    {
+        Year: 2786,
+        Period: "B.B"
+    }
+];
+
 
 // Page references
 var buttonSpawnPoint;
 var planetDisplaySpawnPoint;
 var alternateDimensionToggle;
 var stylesheetElement;
+var yearDisplay;
 
 var isInAlternateDimension = false;
 var currentPlanetIndex = -1;
@@ -54,8 +67,9 @@ window.onload = function()
     planetDisplaySpawnPoint = document.querySelector("#PlanetInfoSpawnPoint");
     alternateDimensionToggle = document.querySelector("#SwitchDimensionToggle");
     stylesheetElement = document.querySelector("#PageStyle");
+    yearDisplay = document.querySelector("#YearDisplay");
 
-    stylesheetElement.setAttribute("href", "Style.css");
+    toggleAlternateDimension(false);
 
     alternateDimensionToggle.onclick = function()
     {
@@ -224,12 +238,14 @@ function toggleAlternateDimension(status)
 
     if (status === true)
     {
+        yearDisplay.innerHTML = YearList[1].Year + " " + YearList[1].Period;
         displayedPlanetTitle.innerHTML = "Selected Planet (Alternate Dimension)";
         stylesheetElement.setAttribute("href", "AltDimensionStyles.css");
     }
 
     else
     {
+        yearDisplay.innerHTML = YearList[0].Year + " " + YearList[0].Period;
         displayedPlanetTitle.innerHTML = "Selected Planet";
         stylesheetElement.setAttribute("href", "Style.css");
     }
