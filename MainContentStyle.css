@@ -12,10 +12,20 @@
     padding: 10px;
     border-radius: 0px;
 
+    font-size: 15px;
+
+    width: 110%;
+    height: 50px;
+
     display: block;
 
     transition: all cubic-bezier(0,1.18,.89,.97) 0.15s;
     -webkit-transition: all cubic-bezier(0,1.18,.89,.97) 0.15s;
+}
+
+.AltDimensionSection button:hover
+{
+    font-size: 17px;
 }
 
 .MainContent
