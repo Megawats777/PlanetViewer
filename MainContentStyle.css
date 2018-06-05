@@ -2,6 +2,16 @@
 /*--DO NOT ADJUST COLOURS AND BORDERS IN THIS File--*/
 /*--Colours are handled in the files Style.css and AltDimensionStyles.css--*/
 
+.TitleSection #YearDisplay
+{
+    margin-top: 10px;
+    margin-left: 25px;
+
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
 .AltDimensionSection
 {
     margin-top: 20px;
