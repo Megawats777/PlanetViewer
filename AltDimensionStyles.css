@@ -21,6 +21,11 @@ body
     color: #0288D1;
 }
 
+.AltDimensionSection button:focus
+{
+    color: #0288D1;
+}
+
 
 /*--Adjust the borders of all section elements--*/
 

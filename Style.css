@@ -16,6 +16,11 @@ body
     color: black;
 }
 
+.AltDimensionSection button:focus
+{
+    color: black;
+}
+
 .SectionTitleUnderline
 {
     border-bottom: 1px solid black;

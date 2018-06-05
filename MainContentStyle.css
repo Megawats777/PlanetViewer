@@ -22,9 +22,9 @@
     padding: 10px;
     border-radius: 0px;
 
-    font-size: 15px;
+    font-size: 13px;
 
-    width: 110%;
+    width: 92%;
     height: 50px;
 
     display: block;
@@ -35,7 +35,7 @@
 
 .AltDimensionSection button:hover
 {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .MainContent
