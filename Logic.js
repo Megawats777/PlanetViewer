@@ -64,22 +64,21 @@ var PlanetList = [
         Alt_Dim_Age: 3500,
         Alt_Dim_Population: "5000",
         Alt_Dim_CarbonDangerLevel: "Moderate",
-        Alt_Dim_Description: "\"I really wish someone finished the Martian Boys Triliogy\" -Mark"
+        Alt_Dim_Description: "\"I really wish someone finished the Martian Boys triliogy.\" -Mark"
     },
     {
-        Name_Offical: "Mercury", 
-        NickName: "Sun's best friend", 
-        Age: 10000, 
-        Population: "2",
-        CarbonDangerLevel: "Moderate",
-        Image: "Images/IMG_Mercury.jpg",
-        Description: "\"A perfect example of a long term and balanced relationship." +
-                        " The sun burns mercury and mercury smacks the sun.\" -Pioneer Jack",
-        Alt_Dim_NickName: "It's bullied by the sun",
-        Alt_Dim_Age: 500,
-        Alt_Dim_Population: "1",
+        Name_Offical: "Jupiter", 
+        NickName: "It ate beans", 
+        Age: 2000, 
+        Population: "1",
+        CarbonDangerLevel: "Ludicrous",
+        Image: "Images/IMG_Jupiter.jpg",
+        Description: "\"More gas than my husband.\" -Pioneer Jane",
+        Alt_Dim_NickName: "It's just gas",
+        Alt_Dim_Age: 50,
+        Alt_Dim_Population: "0",
         Alt_Dim_CarbonDangerLevel: "Ludicrous",
-        Alt_Dim_Description: "\"The sun gave mercury an solar wedgie.\" -Sun ambassador"
+        Alt_Dim_Description: "\"Starting to smell like my mouth.\" -Pioneer Jack"
     }
 ];
 
