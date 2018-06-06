@@ -2,6 +2,14 @@
 /*--DO NOT ADJUST COLOURS AND BORDERS IN THIS File--*/
 /*--Colours are handled in the files Style.css and AltDimensionStyles.css--*/
 
+body
+{
+    transition: all cubic-bezier(0,1.18,.89,.97) 0.7s;
+    -webkit-transition: all cubic-bezier(0,1.18,.89,.97) 0.7s;
+}
+
+
+
 .TitleSection #YearDisplay
 {
     margin-top: 10px;
