@@ -12,12 +12,15 @@ var PlanetList = [
         Population: "400 Billion",
         CarbonDangerLevel: "Ludicrous",
         Image: "Images/IMG_Earth.jpg",
-        Description: "The place where all humans live. It has been around for billions of years even more." + 
-                     " So please take of it...pretty please.",
+        Description: "\"This place is horrible please someone help!" +
+                        " The oil was so good that we took all of it." +
+                        " Wait Mark are those missles over there?\" -Pioneer Jack",
         Alt_Dim_NickName: "A pristine paradise",
         Alt_Dim_Age: 20,
         Alt_Dim_Population: "20 Thousand",
-        Alt_Dim_CarbonDangerLevel: "Light"
+        Alt_Dim_CarbonDangerLevel: "Light",
+        Alt_Dim_Description: "\"Wow this place is absolutely amazing!" +
+                            " Nothing terrible will happen to it for sure!\" -Pioneer Jack"
     },
     {
         Name_Offical: "Venus", 
@@ -26,11 +29,12 @@ var PlanetList = [
         Population: "200 Million",
         CarbonDangerLevel: "Light",
         Image: "Images/IMG_Venus.jpg",
-        Description: "Aside from being one of the first planets in Warframe it is also...actually I don't know.",
+        Description: "\"This is like old Earth just without the missles. I love Exped!\" -Pioneer Jane",
         Alt_Dim_NickName: "The yellow devil",
         Alt_Dim_Age: 9500,
         Alt_Dim_Population: "400",
-        Alt_Dim_CarbonDangerLevel: "Moderate"
+        Alt_Dim_CarbonDangerLevel: "Moderate",
+        Alt_Dim_Description: "\"The heat has burned my friends and my dog. I hate Exped.\" -Mark"
     }
 ];
 
@@ -225,7 +229,18 @@ function displayPlanet(index)
     planetDisplaySpawnPoint.appendChild(descriptionTitle);
 
     var description = document.createElement("p");
-    description.appendChild(document.createTextNode(PlanetList[index].Description));
+    var descContent = " ";
+
+    if (isInAlternateDimension)
+    {
+        descContent = PlanetList[index].Alt_Dim_Description;
+    }
+    else
+    {
+        descContent = PlanetList[index].Description;
+    }
+
+    description.appendChild(document.createTextNode(descContent));
     planetDisplaySpawnPoint.appendChild(description);
     
 }
