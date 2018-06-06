@@ -24,7 +24,7 @@ var PlanetList = [
     },
     {
         Name_Offical: "Venus", 
-        NickName: "One of the first planets in warframe", 
+        NickName: "Better old Earth", 
         Age: 8000, 
         Population: "200 Million",
         CarbonDangerLevel: "Light",
@@ -35,6 +35,21 @@ var PlanetList = [
         Alt_Dim_Population: "400",
         Alt_Dim_CarbonDangerLevel: "Moderate",
         Alt_Dim_Description: "\"The heat has burned my friends and my dog. I hate Exped.\" -Mark"
+    },
+    {
+        Name_Offical: "Mercury", 
+        NickName: "Sun's best friend", 
+        Age: 10000, 
+        Population: "2",
+        CarbonDangerLevel: "Moderate",
+        Image: "Images/IMG_Mercury.jpg",
+        Description: "\"A perfect example of a long term and balanced relationship." +
+                        " The sun burns mercury and mercury smacks the sun.\" -Pioneer Jack",
+        Alt_Dim_NickName: "It's bullied by the sun",
+        Alt_Dim_Age: 500,
+        Alt_Dim_Population: "1",
+        Alt_Dim_CarbonDangerLevel: "Ludicrous",
+        Alt_Dim_Description: "\"The sun gave mercury an solar wedgie.\" -Sun ambassador"
     }
 ];
 
