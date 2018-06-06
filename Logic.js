@@ -49,6 +49,36 @@ var PlanetList = [
         Alt_Dim_Age: 500,
         Alt_Dim_Population: "1",
         Alt_Dim_CarbonDangerLevel: "Ludicrous",
+        Alt_Dim_Description: "\"The sun gave mercury a solar wedgie.\" -Sun ambassador"
+    },
+    {
+        Name_Offical: "Mars", 
+        NickName: "Great when Colourblind", 
+        Age: 7500, 
+        Population: "10 Thousand",
+        CarbonDangerLevel: "Ludicrous",
+        Image: "Images/IMG_Mars.jpg",
+        Description: "\"The set from \"Martian Boys 2\" is still here." +
+                        " We can finally make a proper ending to this trilogy!\" -Mark",
+        Alt_Dim_NickName: "Too much Red",
+        Alt_Dim_Age: 3500,
+        Alt_Dim_Population: "5000",
+        Alt_Dim_CarbonDangerLevel: "Moderate",
+        Alt_Dim_Description: "\"I really wish someone finished the Martian Boys Triliogy\" -Mark"
+    },
+    {
+        Name_Offical: "Mercury", 
+        NickName: "Sun's best friend", 
+        Age: 10000, 
+        Population: "2",
+        CarbonDangerLevel: "Moderate",
+        Image: "Images/IMG_Mercury.jpg",
+        Description: "\"A perfect example of a long term and balanced relationship." +
+                        " The sun burns mercury and mercury smacks the sun.\" -Pioneer Jack",
+        Alt_Dim_NickName: "It's bullied by the sun",
+        Alt_Dim_Age: 500,
+        Alt_Dim_Population: "1",
+        Alt_Dim_CarbonDangerLevel: "Ludicrous",
         Alt_Dim_Description: "\"The sun gave mercury an solar wedgie.\" -Sun ambassador"
     }
 ];
