@@ -96,6 +96,21 @@ var PlanetList = [
                                 " Hendrick is not gonna like this." +
                                 " I could always be a stix dealer on Earth." + 
                                 " Oh great he's here.\" -Pioneer Jack"
+    },
+    {
+        Name_Offical: "Uranus", 
+        NickName: "A Joke", 
+        Age: 2500, 
+        Population: "300",
+        CarbonDangerLevel: "Moderate",
+        Image: "Images/IMG_Uranus.jpg",
+        Description: "\"One of my prized possesions." +
+                        " Who knew holding ice hostage would grant so much power!\" -Hendrick",
+        Alt_Dim_NickName: "Tempting",
+        Alt_Dim_Age: 1000,
+        Alt_Dim_Population: "0",
+        Alt_Dim_CarbonDangerLevel: "Light",
+        Alt_Dim_Description: "\"I wonder if Hendrick would laugh at this discovery.\" -Pioneer Jane"
     }
 
 ];
