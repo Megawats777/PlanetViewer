@@ -45,7 +45,7 @@ var PlanetList = [
         Image: "Images/IMG_Mercury.jpg",
         Description: "\"A perfect example of a long term and balanced relationship." +
                         " The sun burns mercury and mercury smacks the sun.\" -Pioneer Jack",
-        Alt_Dim_NickName: "It's bullied by the sun",
+        Alt_Dim_NickName: "It's bullied by the Sun",
         Alt_Dim_Age: 500,
         Alt_Dim_Population: "1",
         Alt_Dim_CarbonDangerLevel: "Ludicrous",
@@ -53,14 +53,14 @@ var PlanetList = [
     },
     {
         Name_Offical: "Mars", 
-        NickName: "Great when Colourblind", 
+        NickName: "Great when colourblind", 
         Age: 7500, 
         Population: "10 Thousand",
         CarbonDangerLevel: "Ludicrous",
         Image: "Images/IMG_Mars.jpg",
         Description: "\"The set from \"Martian Boys 2\" is still here." +
                         " We can finally make a proper ending to this trilogy!\" -Mark",
-        Alt_Dim_NickName: "Too much Red",
+        Alt_Dim_NickName: "Too much red",
         Alt_Dim_Age: 3500,
         Alt_Dim_Population: "5000",
         Alt_Dim_CarbonDangerLevel: "Moderate",
@@ -99,7 +99,7 @@ var PlanetList = [
     },
     {
         Name_Offical: "Uranus", 
-        NickName: "A Joke", 
+        NickName: "A joke", 
         Age: 2500, 
         Population: "300",
         CarbonDangerLevel: "Moderate",
