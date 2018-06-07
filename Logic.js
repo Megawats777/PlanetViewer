@@ -111,6 +111,20 @@ var PlanetList = [
         Alt_Dim_Population: "0",
         Alt_Dim_CarbonDangerLevel: "Light",
         Alt_Dim_Description: "\"I wonder if Hendrick would laugh at this discovery.\" -Pioneer Jane"
+    },
+    {
+        Name_Offical: "Neptune", 
+        NickName: "Blue ball", 
+        Age: 1000, 
+        Population: "0",
+        CarbonDangerLevel: "Light",
+        Image: "Images/IMG_Neptune.jpg",
+        Description: "\"Where is my shrink ray Mark!\" -Hendrick",
+        Alt_Dim_NickName: "A handball",
+        Alt_Dim_Age: 500,
+        Alt_Dim_Population: "0",
+        Alt_Dim_CarbonDangerLevel: "Light",
+        Alt_Dim_Description: "\"If only it was smaller.\" -Pioneer Jack"
     }
 
 ];
@@ -302,7 +316,7 @@ function displayPlanet(index)
 
     // Create the description elements
     var descriptionTitle = document.createElement("h4");
-    descriptionTitle.appendChild(document.createTextNode("Details"))
+    descriptionTitle.appendChild(document.createTextNode("Log"))
     planetDisplaySpawnPoint.appendChild(descriptionTitle);
 
     var description = document.createElement("p");
