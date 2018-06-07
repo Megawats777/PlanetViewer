@@ -118,3 +118,24 @@ body
     height: 250px;
     width: 250px;
 }
+
+.CreditsSection
+{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.CreditsSection .CreditContent
+{
+    font-size: 17px;
+}
+
+.CreditsSection .Creator
+{
+    margin-bottom: 25px;
+}
+
+.CreditsSection .ImageCredits
+{
+    margin-bottom: 20px;
+}
