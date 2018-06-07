@@ -79,7 +79,25 @@ var PlanetList = [
         Alt_Dim_Population: "0",
         Alt_Dim_CarbonDangerLevel: "Ludicrous",
         Alt_Dim_Description: "\"Starting to smell like my mouth.\" -Pioneer Jack"
+    },
+    {
+        Name_Offical: "Saturn", 
+        NickName: "Big ring", 
+        Age: 300, 
+        Population: "15 Thousand",
+        CarbonDangerLevel: "Moderate",
+        Image: "Images/IMG_Saturn.jpg",
+        Description: "\"Great food, beautiful Sari, and a city among the clouds.\" -Mark",
+        Alt_Dim_NickName: "Doughnut",
+        Alt_Dim_Age: 50,
+        Alt_Dim_Population: "0",
+        Alt_Dim_CarbonDangerLevel: "Ludicrous",
+        Alt_Dim_Description: "\"Were gonna need an army of detoxifiers and shield generators." +
+                                " Hendrick is not gonna like this." +
+                                " I could always be a stix dealer on Earth." + 
+                                " Oh great he's here.\" -Pioneer Jack"
     }
+
 ];
 
 // A list of years
