@@ -1,4 +1,10 @@
-// The logic file for the site
+/**
+ * Author: James Daniel Semilla
+ * Date: June 8, 2018
+ * Desc: The logic for the site
+ */
+
+
 
 /*--Variables--*/
 
