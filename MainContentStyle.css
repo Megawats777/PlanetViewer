@@ -121,21 +121,30 @@ body
 
 .CreditsSection
 {
-    margin-top: 150px;
+    margin-top: 190px;
+    margin-bottom: 30px;
     text-align: center;
+}
+
+.CreditsSection #SectionTitle
+{
+    font-weight: bold;
+
+    margin-bottom: 30px;
+}
+
+.CreditsSection .CreditTitle
+{
+    font-weight: bold;
 }
 
 .CreditsSection .CreditContent
 {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .CreditsSection .Creator
 {
-    margin-bottom: 25px;
-}
-
-.CreditsSection .ImageCredits
-{
-    margin-bottom: 20px;
+    margin-left: 30px;
+    float: left;
 }
