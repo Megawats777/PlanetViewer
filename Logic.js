@@ -86,7 +86,7 @@ var PlanetList = [
         Age: 300, 
         Population: "15 Thousand",
         CarbonDangerLevel: "Moderate",
-        Image: "Images/IMG_Saturn.jpg",
+        Image: "Images/IMG_Saturn_02.jpg",
         Description: "\"Great food, beautiful Sari, and a city among the clouds.\" -Mark",
         Alt_Dim_NickName: "Doughnut",
         Alt_Dim_Age: 50,
